@@ -1,8 +1,8 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(array)
   # Your code here
   i = 0
-  while i < dwarves.length do
-    puts "#{i + 1}. #{dwarves[i]}"
+  while i < array.length do
+    puts "#{i + 1}. #{array[i]}"
   end
 end
 
